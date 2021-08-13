@@ -1,0 +1,98 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(247, 207, 192);
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+
+/* Header */
+.header {
+  background-color: white;
+  justify-content: space-between;
+  display: flex;
+  height: 150px;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  height: 100%;
+}
+nav {
+  display: flex;
+  gap: 5px;
+  position: sticky;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.portada {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  padding: 0%;
+  margin: 0;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0%;
+  margin: 0;
+}
+/* Main */
+.main {
+  padding: 3.2rem;
+  background-color: rgb(248, 202, 184);
+  justify-content: center;
+  text-align: center;
+}
+
+/* Section 1*/
+.main__div {
+  display: grid;
+  background-color: white;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100px 200px;
+  grid-template-areas: "header header header header " "section1 section2 section3 section4";
+  justify-content: space-between;
+
+  gap: 5px;
+  border: 1px solid white;
+  padding: 5px;
+
+  justify-items: space-between;
+  align-items: stretch;
+}
+
+.caja {
+  display: inline;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Section 2*/
+.section2 {
+  padding: 3.2rem;
+  background-color: rgb(248, 202, 184);
+}
+form {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(185, 174, 174);
+}
+h1 {
+  gap: 10px;
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
